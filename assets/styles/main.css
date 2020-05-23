@@ -1,0 +1,38 @@
+.flex-2{
+    flex: 2
+}
+.round-left{
+    border-radius: 10px 0 0 10px;
+}
+.img-logo{
+    width: 80px;
+    height: 50px;
+}
+.branding{
+    padding-bottom: 15px;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+i.fas.fa-search {
+    position: relative;
+    left: -45px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.input-styled{
+    padding: 25px 10;
+}
+.padding-15{
+    padding: 15px;
+}
+.font-18{
+    font-size: 18px;
+    color: black;
+}
+
+.font-25{
+    font-size: 25px;
+}
