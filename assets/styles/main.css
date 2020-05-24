@@ -36,3 +36,30 @@ i.fas.fa-search {
 .font-25{
     font-size: 25px;
 }
+
+.bg-danger-dark{
+    background-color: #52020a;
+}
+
+i.fas.fa-envelope {
+    font-size: 25px;
+    color: lightgrey;
+    position: absolute;
+    left: 30px;
+}
+
+.logo-footer{
+    width: 200px;
+}
+
+.bg-danger-deep-dark{
+    background-color: #290202;
+}
+hr{
+    background-color: white;
+}
+@media only screen and (min-width: 900px){
+    .pl-md-10{
+        padding-left: 100px
+    }
+}
