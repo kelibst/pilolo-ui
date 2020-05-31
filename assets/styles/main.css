@@ -55,8 +55,12 @@ i.fas.fa-envelope {
 .bg-danger-deep-dark{
     background-color: #290202;
 }
+.text-subs{
+    position: relative;
+    top: 70px;
+}
 .img-bg{
-    min-width: 100%;
+    
     min-height: 300px;
     background-image: linear-gradient(to bottom, rgba(21, 21, 23, 0.52), rgba(117, 19, 93, 0.73)),
     url(https://images.unsplash.com/photo-1551026965-10a65509886d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9);
@@ -65,11 +69,55 @@ i.fas.fa-envelope {
     padding: 20px;
 }
 
+
+.img1-bg{
+    min-height: 200px;
+    background-image: linear-gradient(to bottom, rgba(21, 21, 23, 0.52), rgba(117, 19, 93, 0.73)),
+    url(https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9);
+    background-size: cover;
+    background-position: 50%;
+    color: white;
+    padding: 20px;
+}
+.img-start{
+    background-image: url(https://images.unsplash.com/photo-1531928351158-2f736078e0a1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9);
+    background-position: center;
+}
+
+.min-h-100{
+    min-height: 100%;
+}
+
+.bg-yellow {
+    background: #ffff007d;
+    float: left;
+    padding: 5px  20px;
+}
+.bg-light-green{
+    background-color: #4aff68;
+    
+    padding: 5px  20px;
+}
+
 .img-200{
     max-width: 300px;
 }
 hr{
     background-color: white;
+}
+
+.start-shop{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.start-container{
+    position: absolute;
+    bottom: 0;
+    padding: 0 40px
 }
 @media only screen and (min-width: 900px){
     .pl-md-10{
