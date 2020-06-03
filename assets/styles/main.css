@@ -136,12 +136,24 @@ hr{
 .bg-xs-white{
     background-color: white;
 }
+.user-name{
+    font-weight: bolder;
+    font-size: 17px;
+}
+.font-12{
+    font-size: 12px;
+}
+.user-title{
+    font-size: 12px;
+}
 
 i.fas.fa-search {
     font-size: 28px;
     margin-top: 20px;
 }
-
+.p-xs-0{
+    padding: 0;
+}
 
 li.nav-item {
     padding: 0 10px;
