@@ -116,7 +116,11 @@ i.fas.fa-envelope {
 .min-h-100{
     min-height: 100%;
 }
-
+.moved-font{
+    font-size: 30px;
+    position: relative;
+    left: -60px
+}
 .bg-yellow {
     background: #ffff007d;
     float: left;
