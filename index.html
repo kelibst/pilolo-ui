@@ -13,16 +13,17 @@
 
 <body class="bg-light">
   <header>
-    <nav class="navbar bg-white navbar-expand-sm justify-content-between navbar-light ">
+    <nav class="navbar bg-white mb-2 justify-content-around  navbar-expand-sm justify-content-sm-between navbar-light ">
+      <i class="font-25 fas fa-bars"></i>
       <a class="navbar-brand branding font-fedricka" href="#">
         <span class="text-danger">pilo</span><span class="text-black">llo</span>
       </a>
 
       <!-- Links -->
 
-      <form class="form-inline flex-2 mx-5" action="/action_page.php">
+      <form class="form-inline flex-sm-2 mx-sm-5" action="/action_page.php">
         <a class="nav-item dropdown bg-danger ">
-          <a class="nav-link dropdown-toggle padding-15 bg-danger round-left text-white" href="#" id="navbardrop"
+          <a class="nav-link d-none d-sm-block dropdown-toggle padding-15 bg-danger round-left text-white" href="#" id="navbardrop"
             data-toggle="dropdown">
             All
           </a>
@@ -33,19 +34,19 @@
           </div>
         </a>
 
-        <input class="form-control flex-2 mr-sm-2 input-styled" type="text" placeholder="Search for products or shops">
+        <input class="form-control d-none d-sm-block flex-sm-2 mr-sm-2 input-styled" type="text" placeholder="Search for products or shops">
         <i class="fas fa-search"></i>
       </form>
 
-      <ul class="navbar-nav">
+      <ul class="navbar-nav flex-row">
         <li class="nav-item">
-          <a class="nav-link font-weight-bolder text-dark" href="#"><i class="font-25 far fa-heart"></i> Whishlist</a>
+          <a class="nav-link font-weight-bolder text-dark" href="#"><i class="font-25 far fa-heart"></i> <span class="d-none d-sm-inline-flex">Whishlist</span> </a>
         </li>
         <li class="nav-item">
           <a class="nav-item dropdown bg-danger ">
             <a class="nav-link dropdown-toggle text-dark text-black font-weight-bolder" href="#" id="navbardrop"
               data-toggle="dropdown">
-              <i class="font-25 fas fa-user-circle"></i> Account
+              <i class="font-25 fas fa-user-circle"></i> <span class="d-none d-sm-inline-flex">Account</span> 
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item font-weight-bolder" href="#"><i
@@ -57,13 +58,13 @@
         </li>
         <li class="nav-item">
           <a class="nav-link font-weight-bolder font-18 text-dark" href="#"><i
-              class="font-25 fas fa-cart-arrow-down"></i> Cart</a>
+              class="font-25 fas fa-cart-arrow-down"></i> <span class="d-none d-sm-inline-flex">Cart</span> </a>
         </li>
       </ul>
 
     </nav>
 
-    <nav class="pl-md-10 navbar navbar-expand-sm justify-content-between bg-danger-dark navbar-light ">
+    <nav class="pl-md-10 navbar navbar-expand-sm d-none d-sm-flex justify-content-between bg-danger-dark navbar-light ">
 
       <!-- Links -->
 
@@ -112,25 +113,27 @@
   </header>
 
 
-  <section class="bg-light p-4">
-    <div class="container-fluid d-sm-flex">
-      <div class="col-sm-7 bg-white d-sm-flex align-content-center">
-        <div class="p-2 absolute-b flex-column my-auto d-sm-flex">
+  <section class="bg-light p-sm-4">
+    <div class="row-xs container-sm-fluid d-sm-flex">
+      <div class="col-sm-7 mb-2 mb-sm-0 bg-white d-sm-flex align-content-center">
+        <div class="p-2 absolute-b flex-column my-auto d-flex">
           <h2 class="font-weight-bolder pb-4">Sign in for the best experience</h2>
           <a href="#" class="btn btn-danger mb-3">Sign In</a>
           <a href="#" class="text-danger">New here? Create and Account</a>
         </div>
       </div>
+      <div class="px-4 py-2 py-sm-0 bg-xs-white">
+        <div class=" bg-white rounded">
 
-      <div class="bg-white mx-4 ">
-
-        <div class="img-bg mb-2 ">
-          <h1 class="font-italic text-subs font-jura">If it's African creative, unique, its on Pilollo</h1>
+        <div class="img-bg mb-2 rounded">
+        <h1 class="font-italic text-subs text-center font-jura">If it's African creative, unique, its on Pilollo</h1>
         </div>
         <a href="#" class="btn btn-danger py-2 w-100">Start Shopping</a>
 
 
+        </div>
       </div>
+   
     </div>
   </section>
 
