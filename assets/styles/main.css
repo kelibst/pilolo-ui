@@ -36,6 +36,17 @@ i.fas.fa-search {
 .font-25{
     font-size: 25px;
 }
+.font-jura{
+    font-family: 'Jura', sans-serif;
+}
+.font-fedricka{
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.huge{
+    font-size: 100px;
+    text-align: center;
+}
 
 .bg-danger-dark{
     background-color: #52020a;
@@ -64,7 +75,11 @@ i.fas.fa-envelope {
     width: 50px;
     margin: auto;
 }
-
+.courel li{
+    list-style: circle;
+    font-size: 30px;
+    cursor: pointer;
+}
 .text-subs{
     position: relative;
     top: 70px;
