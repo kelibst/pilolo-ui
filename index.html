@@ -1,320 +1,362 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/styles/main.css">
-    <script src="https://kit.fontawesome.com/5e0cee5c01.js" crossorigin="anonymous"></script>
-    <title>Pilolo Ghana</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <script src="https://kit.fontawesome.com/5e0cee5c01.js" crossorigin="anonymous"></script>
+  <title>Pilolo Ghana</title>
 </head>
+
 <body class="bg-light">
-    <header>
-        <nav class="navbar bg-white navbar-expand-sm justify-content-between navbar-light ">
-            <a class="navbar-brand branding" href="#">
-                <span class="text-danger">pilo</span><span class="text-black">llo</span>
+  <header>
+    <nav class="navbar bg-white navbar-expand-sm justify-content-between navbar-light ">
+      <a class="navbar-brand branding" href="#">
+        <span class="text-danger">pilo</span><span class="text-black">llo</span>
+      </a>
+
+      <!-- Links -->
+
+      <form class="form-inline flex-2 mx-5" action="/action_page.php">
+        <a class="nav-item dropdown bg-danger ">
+          <a class="nav-link dropdown-toggle padding-15 bg-danger round-left text-white" href="#" id="navbardrop"
+            data-toggle="dropdown">
+            All
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item font-weight-bolder" href="#"><i class="far fa-heart"></i> Whishlist</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+          </div>
+        </a>
+
+        <input class="form-control flex-2 mr-sm-2 input-styled" type="text" placeholder="Search for products or shops">
+        <i class="fas fa-search"></i>
+      </form>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link font-weight-bolder text-dark" href="#"><i class="font-25 far fa-heart"></i> Whishlist</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item dropdown bg-danger ">
+            <a class="nav-link dropdown-toggle text-dark text-black font-weight-bolder" href="#" id="navbardrop"
+              data-toggle="dropdown">
+              <i class="font-25 fas fa-user-circle"></i> Account
             </a>
-            
-            <!-- Links -->
-           
-            <form class="form-inline flex-2 mx-5" action="/action_page.php">
-                <a class="nav-item dropdown bg-danger ">
-                    <a class="nav-link dropdown-toggle padding-15 bg-danger round-left text-white" href="#" id="navbardrop" data-toggle="dropdown">
-                     All
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item font-weight-bolder" href="#"><i class="far fa-heart"></i> Whishlist</a>
-                      <a class="dropdown-item" href="#">Link 2</a>
-                      <a class="dropdown-item" href="#">Link 3</a>
-                    </div>
-                </a>
-
-                <input class="form-control flex-2 mr-sm-2 input-styled" type="text" placeholder="Search for products or shops">
-                <i class="fas fa-search"></i>
-            </form>
-
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link font-weight-bolder text-dark" href="#"><i class="font-25 far fa-heart"></i> Whishlist</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-item dropdown bg-danger ">
-                    <a class="nav-link dropdown-toggle text-dark text-black font-weight-bolder" href="#" id="navbardrop" data-toggle="dropdown">
-                        <i class="font-25 fas fa-user-circle"></i> Account
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item font-weight-bolder" href="#"><i class="font-25 far fa-heart font-weight-bolder"></i> Account</a>
-                      <a class="dropdown-item" href="#">Link 2</a>
-                      <a class="dropdown-item" href="#">Link 3</a>
-                    </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link font-weight-bolder font-18 text-dark" href="#"><i class="font-25 fas fa-cart-arrow-down"></i> Cart</a>
-              </li>
-            </ul>
-          
-          </nav>
-
-          <nav class="pl-md-10 navbar navbar-expand-sm justify-content-between bg-danger-dark navbar-light ">
-            
-            <!-- Links -->
-           
-            <ul class="navbar-nav ">
-              <li class="nav-item">
-                <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Deals</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Best seller</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Editor's choice</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Help</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Gift card</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Sell</a>
-              </li>
-            </ul>
-            <ul class=" navbar-nav navbar-right">
-            <li class="nav-item">
-                <a class="nav-item dropdown bg-danger ">
-                    <a class="nav-link dropdown-toggle text-white text-black font-weight-bolder" href="#" id="navbardrop" data-toggle="dropdown">
-                        <i class="fas fa-globe"></i> EN
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item font-weight-bolder" href="#"><i class="font-25 far fa-heart font-weight-bolder"></i> Account</a>
-                      <a class="dropdown-item" href="#">Link 2</a>
-                      <a class="dropdown-item" href="#">Link 3</a>
-                    </div>
-                </a>
-              </li>
-            </ul>
-          </nav>
-    </header>
-
-
-    <section class="bg-light p-4">
-        <div class="container-fluid d-sm-flex">
-            <div class="col-sm-7 bg-white d-sm-flex align-content-center">
-                <div class="p-2 absolute-b flex-column my-auto d-sm-flex">
-                    <h2 class="font-weight-bolder pb-4">Sign in for the best experience</h2>
-                    <a href="#" class="btn btn-danger mb-3">Sign In</a>  
-                    <a href="#" class="text-danger">New here? Create and Account</a>
-                </div>
+            <div class="dropdown-menu">
+              <a class="dropdown-item font-weight-bolder" href="#"><i
+                  class="font-25 far fa-heart font-weight-bolder"></i> Account</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
             </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bolder font-18 text-dark" href="#"><i
+              class="font-25 fas fa-cart-arrow-down"></i> Cart</a>
+        </li>
+      </ul>
 
-            <div class="bg-white mx-4 ">
+    </nav>
 
-                <div class="img-bg mb-2 ">
-                    <h1 class="font-italic text-subs">If it's African creative, unique, its on Pilollo</h1>
-                </div>                    
-                    <a href="#" class="btn btn-danger py-2 w-100">Start Shopping</a>
+    <nav class="pl-md-10 navbar navbar-expand-sm justify-content-between bg-danger-dark navbar-light ">
 
-                   
+      <!-- Links -->
+
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Deals</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Best seller</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Editor's choice</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Help</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Gift card</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Sell</a>
+        </li>
+      </ul>
+      <ul class=" navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-item dropdown bg-danger ">
+            <a class="nav-link dropdown-toggle text-white text-black font-weight-bolder" href="#" id="navbardrop"
+              data-toggle="dropdown">
+              <i class="fas fa-globe"></i> EN
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item font-weight-bolder" href="#"><i
+                  class="font-25 far fa-heart font-weight-bolder"></i> Account</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
             </div>
-        </div>
-    </section>
-
-    <section class="p-4 m-4 bg-white">
-      <h4 class="text-dark font-bolder">Design ideas and inspiration</h4> <a href="#" class="text-secondary">See more</a>
-
-      <div class="row justify-content-center">
-        <div class="card m-3">
-          <img src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0 border-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            <p class="bg-yellow rounded">Best Seller</p>
-          </div>
-        </div>
-
-        <div class="card m-3 border-0">
-          <img src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0 border-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            <p class="bg-yellow rounded">Best Seller</p>
-          </div>
-        </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
 
-        <div class="card m-3 border-0">
-          <img src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0 border-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            <p class="bg-yellow rounded">Best Seller</p>
-          </div>
-        </div>
-
-
-        <div class="card m-3 border-0">
-          <img src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0 border-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            <p class="bg-yellow rounded">Best Seller</p>
-          </div>
-        </div>
-
-
-        <div class="card m-3 border-0">
-          <img src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0 border-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            
-          </div>
-        </div>
-
-
-        <div class="card m-3 border-0">
-          <img src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0 border-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            <p class="bg-yellow rounded">Best Seller</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="p-4 m-4 bg-white">
-      <h4 class="text-dark font-bolder">Jewelry, handbags and accessories </h4> <a href="#" class="text-secondary">See more</a>
-
-      <div class="row justify-content-center">
-        <div class="card m-3 border-0">
-          <img src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            <p class="bg-yellow rounded">Best Seller</p>
-          </div>
-        </div>
-
-        <div class="card m-3 border-0">
-          <img src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            <p class="bg-yellow rounded">Best Seller</p>
-          </div>
-        </div>
-
-
-        <div class="card m-3 border-0">
-          <img src="https://images.unsplash.com/photo-1575032617751-6ddec2089882?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0 border-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            <p class="bg-yellow rounded">Best Seller</p>
-          </div>
-        </div>
-
-
-        <div class="card m-3 border-0">
-          <img src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0 border-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            <p class="bg-yellow rounded">Best Seller</p>
-          </div>
-        </div>
-
-
-        <div class="card m-3 border-0">
-          <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0 border-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            
-          </div>
-        </div>
-
-
-        <div class="card m-3 border-0">
-          <img src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          <div class="card-body p-0 border-0">
-            <p class="bg-light-green rounded">FREE shipping</p>
-            <p class="bg-yellow rounded">Best Seller</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="p-4 m-4 bg-white">
-      <h4 class="text-dark font-bolder">Shop by categories </h4> <a href="#" class="text-secondary">See more</a>
-
-      <div class="row justify-content-center">
-        <div class="card m-3">
-          <img src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          
-        </div>
-
-        <div class="card m-3">
-          <img src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          
-        </div>
-
-
-        <div class="card m-3">
-          <img src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          
-        </div>
-
-
-        <div class="card m-3">
-          <img src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9" alt="" class="card-img-top img-200">
-          <a href="#" class="card-title text-dark p-4">$39.99</a>
-          
-        </div>
-
-      </div>
-    </section>
-
-    <section class="row p-4 m-4 bg-white">
-
-      <div class="col-md-6">
-        <div class="start-shop img-start min-h-100">
-          <div class="start-container py-5 w-100 bg-danger">
-            <p class="bg-danger font-italic start-shop-text">
-              Want to turn your idea
-              into a successful business?
-            </p>
-            <a href="#" class="btn w-100 btn-danger">Start a Shop</a>
-          </div>
+  <section class="bg-light p-4">
+    <div class="container-fluid d-sm-flex">
+      <div class="col-sm-7 bg-white d-sm-flex align-content-center">
+        <div class="p-2 absolute-b flex-column my-auto d-sm-flex">
+          <h2 class="font-weight-bolder pb-4">Sign in for the best experience</h2>
+          <a href="#" class="btn btn-danger mb-3">Sign In</a>
+          <a href="#" class="text-danger">New here? Create and Account</a>
         </div>
       </div>
 
-      <div class="col-md-6 ">
-        <div class="row">
+      <div class="bg-white mx-4 ">
+
+        <div class="img-bg mb-2 ">
+          <h1 class="font-italic text-subs">If it's African creative, unique, its on Pilollo</h1>
+        </div>
+        <a href="#" class="btn btn-danger py-2 w-100">Start Shopping</a>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="p-4 m-4 bg-white">
+    <h4 class="text-dark font-bolder">Design ideas and inspiration</h4> <a href="#" class="text-secondary">See more</a>
+
+    <div class="row justify-content-center">
+      <div class="card m-3">
+        <img
+          src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0 border-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+          <p class="bg-yellow rounded">Best Seller</p>
+        </div>
+      </div>
+
+      <div class="card m-3 border-0">
+        <img
+          src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0 border-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+          <p class="bg-yellow rounded">Best Seller</p>
+        </div>
+      </div>
+
+
+      <div class="card m-3 border-0">
+        <img
+          src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0 border-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+          <p class="bg-yellow rounded">Best Seller</p>
+        </div>
+      </div>
+
+
+      <div class="card m-3 border-0">
+        <img
+          src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0 border-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+          <p class="bg-yellow rounded">Best Seller</p>
+        </div>
+      </div>
+
+
+      <div class="card m-3 border-0">
+        <img
+          src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0 border-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+
+        </div>
+      </div>
+
+
+      <div class="card m-3 border-0">
+        <img
+          src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0 border-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+          <p class="bg-yellow rounded">Best Seller</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="p-4 m-4 bg-white">
+    <h4 class="text-dark font-bolder">Jewelry, handbags and accessories </h4> <a href="#" class="text-secondary">See
+      more</a>
+
+    <div class="row justify-content-center">
+      <div class="card m-3 border-0">
+        <img
+          src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+          <p class="bg-yellow rounded">Best Seller</p>
+        </div>
+      </div>
+
+      <div class="card m-3 border-0">
+        <img
+          src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+          <p class="bg-yellow rounded">Best Seller</p>
+        </div>
+      </div>
+
+
+      <div class="card m-3 border-0">
+        <img
+          src="https://images.unsplash.com/photo-1575032617751-6ddec2089882?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0 border-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+          <p class="bg-yellow rounded">Best Seller</p>
+        </div>
+      </div>
+
+
+      <div class="card m-3 border-0">
+        <img
+          src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0 border-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+          <p class="bg-yellow rounded">Best Seller</p>
+        </div>
+      </div>
+
+
+      <div class="card m-3 border-0">
+        <img
+          src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0 border-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+
+        </div>
+      </div>
+
+
+      <div class="card m-3 border-0">
+        <img
+          src="https://images.unsplash.com/photo-1548867568-1c413b952f79?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+        <div class="card-body p-0 border-0">
+          <p class="bg-light-green rounded">FREE shipping</p>
+          <p class="bg-yellow rounded">Best Seller</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-4 m-4 bg-white">
+    <h4 class="text-dark font-bolder">Shop by categories </h4> <a href="#" class="text-secondary">See more</a>
+
+    <div class="row justify-content-center">
+      <div class="card m-3">
+        <img
+          src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+
+      </div>
+
+      <div class="card m-3">
+        <img
+          src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+
+      </div>
+
+
+      <div class="card m-3">
+        <img
+          src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+
+      </div>
+
+
+      <div class="card m-3">
+        <img
+          src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+          alt="" class="card-img-top img-200">
+        <a href="#" class="card-title text-dark p-4">$39.99</a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="row p-4 m-4 bg-white">
+
+    <div class="col-md-6">
+      <div class="start-shop img-start min-h-100">
+        <div class="start-container py-5 w-100 bg-danger">
+          <p class="bg-danger font-italic start-shop-text">
+            Want to turn your idea
+            into a successful business?
+          </p>
+          <a href="#" class="btn w-100 btn-danger">Start a Shop</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 ">
+      <div class="row">
         <div class="col-md-6 img1-bg">
 
         </div>
 
-        
-        <div class="col-md-6">
-          
 
-         
+        <div class="col-md-6">
+
+
+
 
           <a href="#" class="text-secondary">FEATURED SHOPS</a>
           <p class="text-dark">
-            
+
             Inspiring Wall Art
             From Studio
             358
@@ -328,15 +370,15 @@
 
         </div>
 
-        
-        <div class="col-md-6">
-          
 
-         
+        <div class="col-md-6">
+
+
+
 
           <a href="#" class="text-secondary">FEATURED SHOPS</a>
           <p class="text-dark">
-            
+
             Inspiring Wall Art
             From Studio
             358
@@ -349,181 +391,256 @@
 
         </div>
 
-        
-        <div class="col-md-6">
-          
 
-         
+        <div class="col-md-6">
+
+
+
 
           <a href="#" class="text-secondary">FEATURED SHOPS</a>
           <p class="text-dark">
-            
+
             Inspiring Wall Art
             From Studio
             358
           </p>
         </div>
       </div>
+
+
     </div>
-    </section>
 
+    <div class="row pt-4">
+      <section class="testimonials bg-white col-sm-8">
+        <h4 class="text-dark">Testimonials</h4>
 
-    <footer class="bg-danger-dark">
-        <div class="container-fluid">
-            <div class="col-md-10 mx-auto py-4">
-                <div class="row">
-
-               
-                <div class="col-sm-6  flex-column">
-                    <h5 class="subs-header text-white">New to Pilollo?</h5>
-                    <p class="text-light">Subscribe to our newsletter to get updates on our latest offers!</p>
-                    <form class="form-inline" action="/action_page.php">
-                        
-                        <i class="fas fa-envelope"></i>
-                        <input class="form-control w-100 px-sm-5 input-styled" type="text" placeholder="Enter your email">
-                        
-                    </form>
-                    
-                </div>
-                <div class="col-sm-6">
-                    <img class="logo-footer bg-danger-dark" src="assets/img/logo3.png" alt="">
-                </div>
+        <div class="row col-sm-8 align-content-center mx-auto justify-content-between text-center">
+          <div class="col-sm-4">
+            <div class="img-container">
+              <img
+                src="https://images.unsplash.com/photo-1588354349271-4b6d3fef4a31?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+                alt="" class="img-thumbnail rounded-circle">
             </div>
-        </div> 
+            <div class="user">
+              <h4 class="user-name pb-2">Mark Holden</h4>
+              <h6 class="user-title pb-2">Developer</h6>
+              <div class="border-custom py-3"></div>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quod excepturi necessitatibus
+              </p>
+            </div>
+
+          </div>
+
+          <div class="col-sm-4">
+            <div class="img-container">
+              <img
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+                alt="" class="img-thumbnail rounded-circle">
+            </div>
+            <div class="user">
+              <h4 class="user-name pb-2">Mark Holden</h4>
+              <h6 class="user-title pb-2">Developer</h6>
+              <div class="border-custom py-3"></div>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quod excepturi necessitatibus
+              </p>
+            </div>
+
+          </div>
+
+          <div class="col-sm-4">
+            <div class="img-container">
+              <img
+                src="https://images.unsplash.com/photo-1588354349271-4b6d3fef4a31?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
+                alt="" class="img-thumbnail rounded-circle">
+            </div>
+            <div class="user">
+              <h4 class="user-name pb-2">Mark Holden</h4>
+              <h6 class="user-title pb-2">Developer</h6>
+              <div class="border-custom py-3"></div>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quod excepturi necessitatibus
+              </p>
+            </div>
+
+          </div>
+          
+        </div>
+      
+      </section>
+      <div class="col-sm-4 bg-deep-yellow">
+        <h1 class="text-custom">
+          What people say about us
+        </h1>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-danger-dark">
+    <div class="container-fluid">
+      <div class="col-md-10 mx-auto py-4">
+        <div class="row">
+
+
+          <div class="col-sm-6  flex-column">
+            <h5 class="subs-header text-white">New to Pilollo?</h5>
+            <p class="text-light">Subscribe to our newsletter to get updates on our latest offers!</p>
+            <form class="form-inline" action="/action_page.php">
+
+              <i class="fas fa-envelope"></i>
+              <input class="form-control w-100 px-sm-5 input-styled" type="text" placeholder="Enter your email">
+
+            </form>
+
+          </div>
+          <div class="col-sm-6">
+            <img class="logo-footer bg-danger-dark" src="assets/img/logo3.png" alt="">
+          </div>
+        </div>
+      </div>
     </div>
     <hr>
     <div class="footer-navigation ">
-        
 
-        <div class="container navbar align-items-stretch">
-        
-        
+
+      <div class="container navbar align-items-stretch">
+
+
         <ul class="navbar-nav flex-column">
-            <h5 class="text-white font-weight-bolder ml-4 mb-5">Get to Know Us</h5>
+          <h5 class="text-white font-weight-bolder ml-4 mb-5">Get to Know Us</h5>
 
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> About Pilollo</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#">Testimonials</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> About Pilollo</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Careers</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#">Testimonials</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Investor Relations</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Careers</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Blog</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Investor Relations</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Terms & Conditions</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Blog</a>
+          </li>
 
-            <li class="nav-item">
-                <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Privacy Policy</a>
-              </li>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Terms & Conditions</a>
+          </li>
 
-
-          <ul class="navbar-nav flex-column">
-            <h5 class="text-white font-weight-bolder ml-4 mb-5">Make Money with Us</h5>
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Sell on Pilollo</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Become an Affiliate</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Advertise Your Product</a>
-            </li>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Privacy Policy</a>
+          </li>
+        </ul>
 
 
-          <ul class="navbar-nav flex-column">
-            <h5 class="text-white font-weight-bolder ml-4 mb-5">Let Us Help You</h5>
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Deals</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Your Account</a>
-            </li>
+        <ul class="navbar-nav flex-column">
+          <h5 class="text-white font-weight-bolder ml-4 mb-5">Make Money with Us</h5>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Sell on Pilollo</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Your Orders</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Become an Affiliate</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Delivery Rates & Policies</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Help</a>
-            </li>
-
-    
-          </ul>
-
-          <ul class="navbar-nav flex-column">
-            
-            <h5 class="text-white font-weight-bolder ml-4 mb-5">Let Us Help You</h5>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Advertise Your Product</a>
+          </li>
+        </ul>
 
 
-            <li class="nav-item">
-              <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Join Us</a>
-            </li>
+        <ul class="navbar-nav flex-column">
+          <h5 class="text-white font-weight-bolder ml-4 mb-5">Let Us Help You</h5>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Deals</a>
+          </li>
 
-          </ul>
-        
-        </div>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Your Account</a>
+          </li>
 
-        <div class="bg-danger-deep-dark navbar navbar-expand-sm justify-content-between navbar-light">
-            <ul class="navbar-nav ">
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white"> <i class="fas fa-globe"></i> English</a>
-                </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Your Orders</a>
+          </li>
 
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white">  Ghana</a>
-                </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Delivery Rates & Policies</a>
+          </li>
 
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white"> &#162; Ghana Cedis</a>
-                </li>
-                
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Help</a>
+          </li>
 
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white"> 2020, Pilolo, Inc</a>
-                </li>
 
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white">  Terms of Use</a>
-                </li>
+        </ul>
 
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white"> Privacy</a>
-                </li>
+        <ul class="navbar-nav flex-column">
 
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white"> Interest Based Ads</a>
-                </li>
-                
-            </ul>
-        </div>
+          <h5 class="text-white font-weight-bolder ml-4 mb-5">Let Us Help You</h5>
+
+
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bolder text-white" href="#"> Join Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="bg-danger-deep-dark navbar navbar-expand-sm justify-content-between navbar-light">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white"> <i class="fas fa-globe"></i> English</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white"> Ghana</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white"> &#162; Ghana Cedis</a>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white"> 2020, Pilolo, Inc</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white"> Terms of Use</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white"> Privacy</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white"> Interest Based Ads</a>
+          </li>
+
+        </ul>
+      </div>
     </div>
-    </footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

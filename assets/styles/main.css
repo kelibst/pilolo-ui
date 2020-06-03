@@ -55,9 +55,23 @@ i.fas.fa-envelope {
 .bg-danger-deep-dark{
     background-color: #290202;
 }
+.bg-deep-yellow{
+    background-color: #ffb100;
+}
+
+.border-custom{
+    border-top: 1px solid grey;
+    width: 50px;
+    margin: auto;
+}
+
 .text-subs{
     position: relative;
     top: 70px;
+}
+.img-container {
+    max-width: 150px;
+    margin: 40 auto;
 }
 .img-bg{
     
