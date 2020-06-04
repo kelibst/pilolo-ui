@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fredericka+the+Great&family=Julius+Sans+One&family=Jura:wght@300&family=Monoton&family=Pinyon+Script&family=Rajdhani:wght@300;400&family=Raleway:ital,wght@0,100;0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/main.css">
+    <link rel="stylesheet" href="/assets/styles/sign_in.css">
+    <script src="https://kit.fontawesome.com/5e0cee5c01.js" crossorigin="anonymous"></script>
+    <title>Pilollo Sign in page</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand bg-white shadow-sm p-2 mb-2 navbar-light">
+            <ul class="navbar-nav w-100 justify-content-between">
+            <li class="nav-item active">
+                <a class="nav-link" href="/index.html"><i class="header-font fas fa-chevron-left"></i></a>
+                
+            </li>
+            <li class="nav-item">
+                <a class="navbar-brand branding font-fedricka" href="#">
+                    <span class="text-danger">pilo</span><span class="text-black">llo</span>
+                  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-times"></i></a>
+            </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="singin my-4">
+        <div class="container-fluid">
+            <form action="/action_page.php">
+                <h6 class="text-secondary my-4 text-center">Welcome back, please login</h6>
+                <div class="form-group py-4">
+                 
+                  <input type="email" class="form-control border-top-0 border-right-0 border-left-0 " placeholder="Enter email" id="email" required>
+                </div>
+                <div class="form-group yy-4">
+                  
+                  <input type="password" class="form-control border-top-0 border-right-0 border-left-0 " placeholder="Enter password" id="pwd" required>
+                </div>
+                <div class="form-group form-check py-4 ">
+                  <label class="form-check-label w-100">
+                    <input class="form-check-input small-font" type="checkbox"> <span class="small-font">Remember me</span> 
+                    <a href="#" class="text-dark small-font text-underline float-right">Forgot password?</a>
+                  </label>
+                </div>
+                <button type="submit" class="btn w-100 btn-danger form">Sign In</button>
+                <p class="text-secondary text-center py-3">New to Pilollo?</p>
+                <button type="submit" class="btn w-100 btn-light border-danger form">Sign In</button>
+              </form>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <a href="#" class="text-secondary">Terms of use</a>
+        <a href="#" class="text-secondary">Privacy Policy</a>
+    </footer>
+</body>
+</html>
