@@ -127,7 +127,7 @@ hr{
 .grid-row{
     display: grid;
     grid-auto-flow: row;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 220px));
     grid-gap: 20px;
 }
 
