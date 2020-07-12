@@ -164,7 +164,7 @@ hr{
 
 .img-link {
 	width: 100%;
-	height: 300px;
+	min-height: 300px;
 	display: block;
 	background-size: cover;
 	background-position: center;
