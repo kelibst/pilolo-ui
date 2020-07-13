@@ -14,7 +14,7 @@
 <body class="bg-light">
   <header>
     <nav class="navbar bg-white mb-2 justify-content-around  navbar-expand-sm justify-content-sm-between navbar-light ">
-      <i class="font-25 fas fa-bars"></i>
+      <i class="font-25 navbar-toggler d-lg-none d-block fas fa-bars" data-toggle="collapse" data-target="#hiddenNav"></i>
       <a class="navbar-brand branding font-fedricka" href="#">
         <span class="text-danger">pilo</span><span class="text-black">llo</span>
       </a>
@@ -64,7 +64,7 @@
 
     </nav>
 
-    <nav class="pl-md-10 navbar navbar-expand-sm d-none d-sm-flex justify-content-between bg-danger-dark navbar-light ">
+    <nav id="hiddenNav" class="pl-md-10 collapse navbar-collapse navbar navbar-expand-md d-lg-flex justify-content-between bg-danger-dark navbar-light ">
 
       <!-- Links -->
 
@@ -498,7 +498,7 @@
             </div>
 
             <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="card text-centerborder-0 mb-2">
+              <div class="card text-center border-0 mb-2">
                 <img
                 src="https://images.unsplash.com/photo-1588354349271-4b6d3fef4a31?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
                 alt="" class="img-thumbnail rounded-circle">
