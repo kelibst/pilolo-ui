@@ -12,7 +12,7 @@
 </head>
 
 <body class="bg-light">
-  <header>
+  <header class="header-container">
     <nav class="navbar bg-white mb-2 justify-content-around  navbar-expand-sm justify-content-sm-between navbar-light ">
       <i class="font-25 navbar-toggler d-lg-none d-block fas fa-bars" data-toggle="collapse" data-target="#hiddenNav"></i>
       <a class="navbar-brand branding font-fedricka" href="#">
@@ -21,26 +21,51 @@
 
       <!-- Links -->
 
-      <form class="form-inline d-none d-xl-flex flex-sm-2 mx-sm-5" action="/action_page.php">
+      <form class="form-inline d-none d-xl-flex flex-sm-2" action="/action_page.php">
         <a class="nav-item dropdown bg-danger ">
           <a class="nav-link d-none d-sm-block dropdown-toggle padding-15 bg-danger round-left text-white" href="#" id="navbardrop"
             data-toggle="dropdown">
             All
           </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item font-weight-bolder" href="#"><i class="far fa-heart"></i> Whishlist</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
+          <div class="dropdown-menu  shadow ">
+            <ul class="search-ul">
+              <li class="search-li border-custom-1">
+                <a href="#" class="search-a text-dark">Clothing and Accessories</a>
+                <a href="#" class="search-a text-dark">FootWears</a>
+                <a href="#" class="search-a text-dark">Harts and Accessories</a>
+                <a href="#" class="search-a text-dark">Home and Arts</a>
+                <a href="#" class="search-a text-dark">Beads</a>
+                <a href="#" class="search-a text-dark">Clothing and Accessories</a>
+              </li>
+
+              <li class="search-li">
+                <a href="#" class="search-a text-dark">Clothing and Accessories</a>
+                <a href="#" class="search-a text-dark">FootWears</a>
+                <a href="#" class="search-a text-dark">Harts and Accessories</a>
+                <a href="#" class="search-a text-dark">Home and Arts</a>
+                <a href="#" class="search-a text-dark">Beads</a>
+                <a href="#" class="search-a text-dark">Clothing and Accessories</a>
+              </li>
+
+               <li class="search-li">
+                <a href="#" class="search-a text-dark">Clothing and Accessories</a>
+                <a href="#" class="search-a text-dark">FootWears</a>
+                <a href="#" class="search-a text-dark">Harts and Accessories</a>
+                <a href="#" class="search-a text-dark">Home and Arts</a>
+                <a href="#" class="search-a text-dark">Beads</a>
+                <a href="#" class="search-a text-dark">Clothing and Accessories</a>
+              </li>
+            </ul>
           </div>
         </a>
 
         <input class="form-control d-none d-sm-block flex-sm-2 mr-sm-2 input-styled" type="text" placeholder="Search for products or shops">
-        <i class="fas fa-search"></i>
+        <i class="fas search-icon fa-search"></i>
       </form>
 
       <ul class="navbar-nav flex-row">
         <li class="nav-item">
-          <a class="nav-link font-weight-bolder text-dark" href="#"><i class="font-25 far fa-heart"></i> <span class="d-none d-sm-inline-flex">Whishlist</span> </a>
+          <a class="nav-link font-weight-bolder text-dark" href="#"><i class="font-25 fas fa-heart"></i> <span class="d-none d-sm-inline-flex">Whishlist</span> </a>
         </li>
         <li class="nav-item">
           <a class="nav-item dropdown bg-danger ">
@@ -117,8 +142,6 @@
               <i class="fas fa-globe"></i> EN
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item font-weight-bolder" href="#"><i
-                  class="font-25 far fa-heart font-weight-bolder"></i> Account</a>
               <a class="dropdown-item" href="#">Link 2</a>
               <a class="dropdown-item" href="#">Link 3</a>
             </div>
@@ -128,7 +151,7 @@
     </nav>
   </header>
 
-<div class="container-lg">
+<div class="container-lg p-0 p-sm-2">
 
 
   <section class="bg-light p-sm-4">
@@ -227,7 +250,7 @@
 
 
   <section class="bg-xs-white d-none d-md-block">
-    <div class="p-4 mx-sm-4 mx-auto bg-white">
+    <div class="p-1 p-sm-4 mx-sm-4 mx-auto bg-white">
     <h4 class="text-dark font-bolder">Jewelery, handbags and accessories </h4> <a href="#" class="text-secondary">See
       more</a>
 
@@ -295,7 +318,7 @@
   </section>
 
   <section class="bg-xs-white">
-    <div class="p-4 mx-sm-4 mx-auto bg-white">
+    <div class="p-1 p-sm-4 mx-sm-4 mx-auto bg-white">
     <h4 class="text-dark d-none d-md-block font-bolder">Shop by categories </h4> <a href="#" class="text-secondary">See more</a>
 
     <div class="grid-row ">
