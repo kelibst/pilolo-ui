@@ -44,15 +44,31 @@
         </li>
         <li class="nav-item">
           <a class="nav-item dropdown bg-danger ">
-            <a class="nav-link dropdown-toggle text-dark text-black font-weight-bolder" href="#" id="navbardrop"
-              data-toggle="dropdown">
+            <a class="nav-link dropdown-toggler text-dark text-black font-weight-bolder" href="#">
               <i class="font-25 fas fa-user-circle"></i> <span class="d-none d-sm-inline-flex">Account</span> 
             </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item font-weight-bolder" href="#"><i
-                  class="font-25 far fa-heart font-weight-bolder"></i> Account</a>
-              <a class="dropdown-item" href="#">Link 2</a>
-              <a class="dropdown-item" href="#">Link 3</a>
+            <div class="drop-profile ">
+              <div class="drop-container  d-none shadow">
+                <div class="drop-content">
+                  <i class="fas font-25 fa-user-circle mr-2"></i><span class="account-name font-weight-bolder">Martin</span>
+                </div>
+                <div class="drop-content">
+                  <i class="fas font-25 fa-birthday-cake mr-2"></i><a href="#" class="text-dark disabled">Gift card balance USD 0.00</a>
+                </div>
+                <div class="drop-content">
+                  <i class="fas font-25 fa-envelope mr-2"></i><a href="#" class="text-dark">Messages</a>
+                </div>
+                <div class="drop-content">
+                  <i class="fas font-25 fa-calendar-alt mr-2"></i><a href="#" class="text-dark">Purchases and reviews</a>
+                </div>
+                <div class="drop-content">
+                  <i class="fas font-25 fa-user-cog mr-2"></i><a href="#" class="text-dark">Account settings</a> 
+                </div>
+                <div class="drop-content">
+                  <i class="fas font-25 mb-5 fa-building mr-2"></i><a href="#" class="text-dark">Sell on Pilollo</a>
+                </div>
+                <a href="#" class="mt text-dark"><i class="fas font-25 fa-sign-out-alt mr-2"></i>Sign Out</a>
+              </div>
             </div>
           </a>
         </li>
@@ -745,6 +761,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+    <script src="assets/scripts/app.js"></script>
 </body>
 
 </html>
