@@ -345,5 +345,37 @@ hr{
             grid-gap: 10px;
     
         }
+
+        .collapse-navbar {
+            position: fixed;
+            top: 50px;
+            left: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            width: 75%;
+            height: 100%;
+            z-index: 100;
+            
+        }
+    
+        .collapse-navbar.collapsing {
+            left: -75%;
+            transition: height 0s ease;
+        }
+        .collapse-navbar.collapse{
+            left: 10px;
+            transition: left 300ms ease-in-out;
+        }
+    
+        .collapse-navbar.show {
+            left: 0;
+            transition: left 300ms ease-in-out;
+        }
+    
+        .navbar-toggler.collapsed ~ .collapse-navbar {
+            transition: left 500ms ease-in-out;
+        }
     }
         
+  
