@@ -59,7 +59,7 @@
     </nav>
   </div>
   <header class="header-container">
-    <nav class="navbar bg-white mb-2 justify-content-around  navbar-expand-sm justify-content-sm-between navbar-light ">
+    <nav class="navbar bg-white mb-2 justify-content-around navbar-fixed-top navbar-expand-sm justify-content-sm-between navbar-light ">
       <i class="font-25 navbar-toggler d-lg-none d-block fas fa-bars" data-toggle="collapse" data-target="#hiddenNav"></i>
       <a class="navbar-brand branding font-fedricka" href="#">
         <span class="text-danger">pilo</span><span class="text-black">llo</span>
@@ -104,12 +104,15 @@
             </ul>
           </div>
         </a>
-
+        
         <input class="form-control d-none d-sm-block flex-sm-2 mr-sm-2 input-styled" type="text" placeholder="Search for products or shops">
-        <i class="fas search-icon fa-search"></i>
+        <i class="fas search-icon fa-search search-extra"></i>
       </form>
 
       <ul class="navbar-nav flex-row">
+        <li class="nav-item d-sm-none">
+          <a class="nav-link font-weight-bolder text-dark" href="#"><i class="fas search-icon fa-search"></i></i> <span class="d-none d-sm-inline-flex">Search</span> </a>
+        </li>
         <li class="nav-item">
           <a class="nav-link font-weight-bolder text-dark" href="#"><i class="font-25 fas fa-heart"></i> <span class="d-none d-sm-inline-flex">Whishlist</span> </a>
         </li>
@@ -148,7 +151,9 @@
               class="font-25 fas fa-cart-arrow-down"></i> <span class="d-none d-sm-inline-flex">Cart</span> </a>
         </li>
       </ul>
-
+      <form class="form-inline d-sm-none" action="/action_page.php">  
+        <input class="form-control  d-sm-none hidden-input" type="text" placeholder="Search for products or shops">
+      </form>
     </nav>
 
      <nav class="pl-md-10 collapse navbar-collapse navbar navbar-expand-md d-lg-flex justify-content-between bg-danger-dark navbar-light ">

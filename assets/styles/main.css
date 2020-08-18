@@ -7,7 +7,7 @@
     height: 50px;
 }
 
-i.fas.search-icon.fa-search {
+.search-extra{
     font-size: 25px;
     right: 40px;
     position: relative;
@@ -323,10 +323,12 @@ hr{
         .user-title{
             font-size: 12px;
         }
-        
-        i.fas.fa-search {
-            font-size: 28px;
+        .search-extra{
             margin-top: 20px;
+        }
+        i.fas.fa-search {
+            
+            font-size: 28px;
         }
         .p-xs-0{
             padding: 0;
@@ -344,6 +346,16 @@ hr{
             grid-template-columns: repeat(auto-fit, minmax(47%, .5fr));
             grid-gap: 10px;
     
+        }
+        .hidden-input {
+            border: none;
+            transition: all .4s;
+        }
+        
+        .hidden-input:focus {
+            box-shadow: none;
+            border-radius: 2rem;
+            border: 1px solid blue;
         }
 
         .collapse-navbar {
