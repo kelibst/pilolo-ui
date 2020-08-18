@@ -326,8 +326,7 @@ hr{
         .search-extra{
             margin-top: 20px;
         }
-        i.fas.fa-search {
-            
+        i.fas.fa-search {       
             font-size: 28px;
         }
         .p-xs-0{
@@ -356,6 +355,12 @@ hr{
             box-shadow: none;
             border-radius: 2rem;
             border: 1px solid blue;
+        }
+
+        .header-container {
+            position: fixed;
+            top: 0;
+            z-index: 100;
         }
 
         .collapse-navbar {
